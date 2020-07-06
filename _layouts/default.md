@@ -1,0 +1,11 @@
+<html>
+{%- include head.html-%}
+
+<body>
+    {%- include header.html-%}
+    <div class="content">
+        {{ content }}
+    </div>
+</body>
+
+</html>
